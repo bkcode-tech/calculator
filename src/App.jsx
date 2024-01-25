@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Input from "./Input";
-
 import "./App.css";
 
 function App() {
@@ -23,8 +22,7 @@ function App() {
     "c",
     "=",
   ];
-  const equelEl = document.getElementById("=");
-  equelEl.style.backgroundColor = "green";
+
   function handlefunc(e) {
     const val = e.target.id;
     if (val == "c") {
